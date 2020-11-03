@@ -1,0 +1,7 @@
+<h1>Lord of the Rings Movies</h1>
+<%@movies.each do |movie|%>
+<p><%=link_to movie.name, movie_path(movie.id)%></p>
+<%end%>
+<p><%=link_to "Add a Movie", new_movie_path%></p>
+
+

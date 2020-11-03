@@ -1,0 +1,12 @@
+<h3><%=@movie.name%></h3>
+<h4>Release Year: <%=@movie.release_year%></h4>
+<h4>Description: <%=@movie.description%></h4>
+<h4>Characters:</h4>
+<%@movie.characters.each do |character|%>
+ <h4><%=link_to character.name, character_path(character.id)%></h4>
+ <%end%>
+
+<p><%=link_to "Update Movie Info", edit_movie_path%></p>
+<p><%=link_to "Remove this Movie", movie_path(@movie), method: "delete"%></p>
+<p><%=link_to "Back to Movie List", movies_path%></p>
+
