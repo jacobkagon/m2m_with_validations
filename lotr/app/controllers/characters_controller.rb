@@ -3,6 +3,11 @@ class CharactersController < ApplicationController
     @characters = Character.all
   end
 
+  def sort_by
+   @characters = Character.all.order('name ASC')
+   render :index
+  end
+
   def show
     @character = Character.find(params[:id])
   end

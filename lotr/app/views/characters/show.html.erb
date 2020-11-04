@@ -1,8 +1,13 @@
 <h1><%=@character.name%></h1>
 <h2>Location: <%=@character.location%></h2>
 
-<%@character.movies.each do |movie|%>
-  <h2>Movies: <%=link_to movie.name, movie_path(movie.id)%></h2>
+<%if @character.movies.any?%>
+  <h2>Movies:</h2>
+  <%@character.movies.each do |movie|%>
+  <h2><%=link_to movie.name, movie_path(movie.id)%></h2>
+  <%end%>
+  <%else%>
+  <h2><%=@character.name%> is not in any movies</h2>
 <%end%>
 <p><%=link_to "Character List", characters_path%></p>
 <p><%=link_to "Update Character Info", edit_character_path%></p>

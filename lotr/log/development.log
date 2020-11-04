@@ -3849,3 +3849,1330 @@ Processing by CharactersController#show as HTML
 Completed 200 OK in 147ms (Views: 109.9ms | ActiveRecord: 7.4ms | Allocations: 2013871)
 
 
+Started GET "/" for ::1 at 2020-11-04 15:11:55 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobkagon/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobkagon/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.1ms | Allocations: 1107)
+Completed 200 OK in 18ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 2816)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:11:58 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 5979)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 31.2ms | ActiveRecord: 0.8ms | Allocations: 15378)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:00 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1162)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.2ms | Allocations: 5170)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:03 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1155)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms | Allocations: 5163)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:09 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1155)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.1ms | Allocations: 5161)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:09 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.1ms | Allocations: 5137)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:10 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.6ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.6ms | Allocations: 5141)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:10 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.8ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.8ms | Allocations: 5137)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:45 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.8ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.8ms | Allocations: 5144)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:45 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.1ms | Allocations: 5137)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:45 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 5137)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:12:46 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.1ms | Allocations: 5141)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:13:01 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.1ms | Allocations: 5141)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:13:05 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 5137)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:13:08 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms | Allocations: 5133)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:14:30 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 4679)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.5ms | Allocations: 10263)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:14:30 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.1ms | Allocations: 5138)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:14:31 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 5137)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:14:32 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.1ms | Allocations: 5138)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:15:55 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4829)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 16.6ms | ActiveRecord: 0.6ms | Allocations: 11186)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:15:56 -0500
+Processing by CharactersController#index as HTML
+  Parameters: {"authenticity_token"=>"e1x2GbYU1UQ+2swUDnGRRXiuQpFOPnexaZAkhbRAAtaxIJRd+gRfh2nvWhJhpfamX8GfdZc4RApSYqIVhcNDrw=="}
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.2ms | Allocations: 5129)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:15:57 -0500
+Processing by CharactersController#index as HTML
+  Parameters: {"authenticity_token"=>"UA3BJ2uGy28PxlSgDKO08mIXhmdDfGHeEI//duNJqYiacSNjJ5ZBrFjzwqZjd9MRRXhbg5p6UmUrfXnm0sro8Q=="}
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 5119)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:19:05 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1778)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 6695)
+
+
+Started GET "/characters?order=name+" for ::1 at 2020-11-04 15:19:06 -0500
+Processing by CharactersController#index as HTML
+  Parameters: {"order"=>"name "}
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 5169)
+
+
+Started GET "/characters?order=name+" for ::1 at 2020-11-04 15:19:07 -0500
+Processing by CharactersController#index as HTML
+  Parameters: {"order"=>"name "}
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1168)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 5158)
+
+
+Started GET "/info/rails/routes" for ::1 at 2020-11-04 15:27:38 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/info/rails/routes"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/characters" for ::1 at 2020-11-04 15:28:30 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4508)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 12.5ms | ActiveRecord: 0.2ms | Allocations: 10971)
+
+
+Started GET "/characters/order" for ::1 at 2020-11-04 15:28:32 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"order"}
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.3ms | Allocations: 1597)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Character with 'id'=order):
+  
+app/controllers/characters_controller.rb:12:in `show'
+Started GET "/characters" for ::1 at 2020-11-04 15:31:25 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Character Load (0.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Character Load (0.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Character Load (0.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Character Load (0.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Character Load (0.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Character Load (0.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Character Load (0.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered characters/index.html.erb within layouts/application (Duration: 302.9ms | Allocations: 171975)
+Completed 500 Internal Server Error in 306ms (ActiveRecord: 0.7ms | Allocations: 174098)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `characters_order_path' for #<#<Class:0x00007fd1600cb4b0>:0x00007fd156b1bcd0>
+Did you mean?  characters_path):
+    1: <h1>LOTR Characters</h1>
+    2: <%= link_to "Sort by Name", characters_order_path %>
+    3:  <%@characters.each do |character|%>
+    4:     <p><%=link_to character.name, character_path(character.id)%></p>
+    5:  <%end%>
+  
+app/views/characters/index.html.erb:2
+Started GET "/characters" for ::1 at 2020-11-04 15:32:11 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4821)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 11.8ms | ActiveRecord: 0.5ms | Allocations: 11167)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:32:13 -0500
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1139)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms | Allocations: 5121)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:32:16 -0500
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.2ms | Allocations: 5109)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:32:39 -0500
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 5101)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:38:14 -0500
+  
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  
+config/routes.rb:6:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/characters" for ::1 at 2020-11-04 15:39:17 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.2ms | Allocations: 10811)
+
+
+Started GET "/characters/order" for ::1 at 2020-11-04 15:39:21 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"order"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1288)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Character with 'id'=order):
+  
+app/controllers/characters_controller.rb:12:in `show'
+Started GET "/characters/order" for ::1 at 2020-11-04 15:39:43 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 4631)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.6ms | Allocations: 10209)
+
+
+Started GET "/characters/characters/order" for ::1 at 2020-11-04 15:39:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/characters/characters/order"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/characters/" for ::1 at 2020-11-04 15:40:30 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1305)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.3ms | Allocations: 6233)
+
+
+Started GET "/characters/order" for ::1 at 2020-11-04 15:40:31 -0500
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 1131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.4ms | Allocations: 5113)
+
+
+Started GET "/characters/27" for ::1 at 2020-11-04 15:40:34 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 27]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 38.4ms | Allocations: 14676)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 41.4ms | ActiveRecord: 1.6ms | Allocations: 19373)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:40:39 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 5110)
+
+
+Started GET "/characters/28" for ::1 at 2020-11-04 15:40:43 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 28]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1086)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.4ms | Allocations: 5612)
+
+
+Started GET "/movies/10" for ::1 at 2020-11-04 15:40:51 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/movies_controller.rb:7:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" INNER JOIN "movie_characters" ON "characters"."id" = "movie_characters"."character_id" WHERE "movie_characters"."movie_id" = ?[0m  [["movie_id", 10]]
+  ↳ app/views/movies/show.html.erb:5
+  Rendered movies/show.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2665)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 0.6ms | Allocations: 7786)
+
+
+Started GET "/movies/10" for ::1 at 2020-11-04 15:41:39 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/movies_controller.rb:7:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters" INNER JOIN "movie_characters" ON "characters"."id" = "movie_characters"."character_id" WHERE "movie_characters"."movie_id" = ?[0m  [["movie_id", 10]]
+  ↳ app/views/movies/show.html.erb:5
+  Rendered movies/show.html.erb within layouts/application (Duration: 9.6ms | Allocations: 8832)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 14.4ms | ActiveRecord: 1.2ms | Allocations: 19146)
+
+
+Started GET "/movies" for ::1 at 2020-11-04 15:41:42 -0500
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/movies/index.html.erb:2
+  Rendered movies/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 970)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.2ms | Allocations: 5099)
+
+
+Started GET "/movies/rails/routes" for ::1 at 2020-11-04 15:42:01 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/movies/rails/routes"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/movies/" for ::1 at 2020-11-04 15:42:20 -0500
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/movies/index.html.erb:2
+  Rendered movies/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 942)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.1ms | Allocations: 5867)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 15:42:31 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1307)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.3ms | Allocations: 5824)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:42:33 -0500
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.4ms | Allocations: 5103)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:42:53 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 4674)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.5ms | Allocations: 10255)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:42:54 -0500
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.2ms | Allocations: 5101)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:44:30 -0500
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1402)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.2ms | Allocations: 6309)
+
+
+Started POST "/order/characters" for ::1 at 2020-11-04 15:44:33 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/order/characters"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/characters" for ::1 at 2020-11-04 15:44:54 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1217)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 5215)
+
+
+Started POST "/order/characters" for ::1 at 2020-11-04 15:44:56 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/order/characters"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/characters" for ::1 at 2020-11-04 15:45:52 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1288)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 6215)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:45:55 -0500
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.4ms | Allocations: 5104)
+
+
+Started GET "/order/characters" for ::1 at 2020-11-04 15:46:15 -0500
+Processing by CharactersController#sort_by as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" ORDER BY name ASC[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.2ms | Allocations: 5104)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:15:45 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 4290)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 16.0ms | ActiveRecord: 0.2ms | Allocations: 9866)
+
+
+Started GET "/characters/new" for ::1 at 2020-11-04 16:15:54 -0500
+Processing by CharactersController#new as HTML
+  Rendering characters/new.html.erb within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/characters/_form.html.erb:7
+  Rendered characters/_form.html.erb (Duration: 222.1ms | Allocations: 209641)
+  Rendered characters/new.html.erb within layouts/application (Duration: 223.7ms | Allocations: 209951)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 231ms (Views: 227.8ms | ActiveRecord: 0.7ms | Allocations: 214002)
+
+
+Started GET "/characters/new" for ::1 at 2020-11-04 16:15:58 -0500
+Processing by CharactersController#new as HTML
+  Rendering characters/new.html.erb within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/characters/_form.html.erb:7
+  Rendered characters/_form.html.erb (Duration: 2.8ms | Allocations: 2355)
+  Rendered characters/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2419)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 6420)
+
+
+Started POST "/characters" for ::1 at 2020-11-04 16:16:23 -0500
+Processing by CharactersController#create as HTML
+  Parameters: {"authenticity_token"=>"mBnojJ783eVUgUzzeTyTSjZUl+MYHpqB8iW81KD1UmJSZQrI0uxXJgO02vUW6PSpETtKB8EYqTrJ1zpEkXYTGw==", "character"=>{"name"=>"Samwise Gamche", "location"=>"The Shire", "movie_ids"=>["", "7", "8", "9"]}, "commit"=>"Create Character"}
+[31mUnpermitted parameter: :movie_ids[0m
+  [1m[36mCharacter Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "characters" WHERE LOWER("characters"."name") = LOWER(?) LIMIT ?[0m  [["name", "Samwise Gamche"], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:21:in `create'
+  [1m[36mCACHE Character Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "characters" WHERE LOWER("characters"."name") = LOWER(?) LIMIT ?[0m  [["name", "Samwise Gamche"], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:22:in `create'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/characters_controller.rb:22:in `create'
+  [1m[36mCharacter Create (1.5ms)[0m  [1m[32mINSERT INTO "characters" ("name", "location", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Samwise Gamche"], ["location", "The Shire"], ["created_at", "2020-11-04 21:16:23.380056"], ["updated_at", "2020-11-04 21:16:23.380056"]]
+  ↳ app/controllers/characters_controller.rb:22:in `create'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/characters_controller.rb:22:in `create'
+Redirected to http://localhost:3000/characters/33
+Completed 302 Found in 10ms (ActiveRecord: 3.2ms | Allocations: 4986)
+
+
+Started GET "/characters/33" for ::1 at 2020-11-04 16:16:23 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 33]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1539)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 6320)
+
+
+Started POST "/characters" for ::1 at 2020-11-04 16:17:08 -0500
+Processing by CharactersController#create as HTML
+  Parameters: {"authenticity_token"=>"mBnojJ783eVUgUzzeTyTSjZUl+MYHpqB8iW81KD1UmJSZQrI0uxXJgO02vUW6PSpETtKB8EYqTrJ1zpEkXYTGw==", "character"=>{"name"=>"Samwise Gamche", "location"=>"The Shire", "movie_ids"=>["", "7", "8", "9"]}, "commit"=>"Create Character"}
+[31mUnpermitted parameter: :movie_ids[0m
+  [1m[36mCharacter Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "characters" WHERE LOWER("characters"."name") = LOWER(?) LIMIT ?[0m  [["name", "Samwise Gamche"], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:21:in `create'
+No template found for CharactersController#create, rendering head :no_content
+Completed 204 No Content in 5ms (ActiveRecord: 0.2ms | Allocations: 3083)
+
+
+Started GET "/characters/new" for ::1 at 2020-11-04 16:17:42 -0500
+Processing by CharactersController#new as HTML
+  Rendering characters/new.html.erb within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/characters/_form.html.erb:7
+  Rendered characters/_form.html.erb (Duration: 4.6ms | Allocations: 2357)
+  Rendered characters/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2421)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.1ms | Allocations: 6422)
+
+
+Started POST "/characters" for ::1 at 2020-11-04 16:17:47 -0500
+Processing by CharactersController#create as HTML
+  Parameters: {"authenticity_token"=>"tC+/ci5DrpojUWkMY3jtNiwgPciLHZZ3OkwM9jru2SJ+U102YlMkWXRk/woMrIrVC0/gLFIbpcwBvopmC22YWw==", "character"=>{"name"=>"Samwise Gamche", "location"=>"The Shire", "movie_ids"=>[""]}, "commit"=>"Create Character"}
+[31mUnpermitted parameter: :movie_ids[0m
+  [1m[36mCharacter Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "characters" WHERE LOWER("characters"."name") = LOWER(?) LIMIT ?[0m  [["name", "Samwise Gamche"], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:21:in `create'
+No template found for CharactersController#create, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.2ms | Allocations: 1726)
+
+
+Started GET "/characters/new" for ::1 at 2020-11-04 16:18:02 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/jacobkagon/Flatiron/code/m2m_with_validations/lotr/app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+...cter).permit(:name, :location :movie_ids => [])
+...                              ^):
+  
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+Started GET "/characters/new" for ::1 at 2020-11-04 16:18:06 -0500
+  
+SyntaxError (/Users/jacobkagon/Flatiron/code/m2m_with_validations/lotr/app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+...cter).permit(:name, :location :movie_ids => [])
+...                              ^):
+  
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+Started GET "/characters/new" for ::1 at 2020-11-04 16:18:07 -0500
+  
+SyntaxError (/Users/jacobkagon/Flatiron/code/m2m_with_validations/lotr/app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+...cter).permit(:name, :location :movie_ids => [])
+...                              ^):
+  
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+Started GET "/characters/new" for ::1 at 2020-11-04 16:18:07 -0500
+  
+SyntaxError (/Users/jacobkagon/Flatiron/code/m2m_with_validations/lotr/app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+...cter).permit(:name, :location :movie_ids => [])
+...                              ^):
+  
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+app/controllers/characters_controller.rb:35: syntax error, unexpected ':', expecting ')'
+Started GET "/characters/new" for ::1 at 2020-11-04 16:18:22 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#new as HTML
+  Rendering characters/new.html.erb within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/characters/_form.html.erb:7
+  Rendered characters/_form.html.erb (Duration: 11.3ms | Allocations: 11034)
+  Rendered characters/new.html.erb within layouts/application (Duration: 11.6ms | Allocations: 11098)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 15.3ms | ActiveRecord: 1.2ms | Allocations: 20073)
+
+
+Started POST "/characters" for ::1 at 2020-11-04 16:19:03 -0500
+Processing by CharactersController#create as HTML
+  Parameters: {"authenticity_token"=>"C7f9AdY+zceb22HH2Qa8nU0cEtmNeDGu2AuMBO4QzTDByx9Fmi5HBMzu98G20tt+anPPPVR+AhXj+QqU35OMSQ==", "character"=>{"name"=>"Samwise Gamche", "location"=>"The Shire", "movie_ids"=>["", "7", "8", "9"]}, "commit"=>"Create Character"}
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" IN (?, ?, ?)[0m  [["id", 7], ["id", 8], ["id", 9]]
+  ↳ app/controllers/characters_controller.rb:20:in `create'
+  [1m[36mCharacter Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "characters" WHERE LOWER("characters"."name") = LOWER(?) LIMIT ?[0m  [["name", "Samwise Gamche"], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:21:in `create'
+  [1m[36mMovie Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" WHERE LOWER("movies"."name") = LOWER(?) AND "movies"."id" != ? LIMIT ?[0m  [["name", "Fellowship of the Ring"], ["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:21:in `create'
+  [1m[36mMovie Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" WHERE LOWER("movies"."name") = LOWER(?) AND "movies"."id" != ? LIMIT ?[0m  [["name", "The Two Towers"], ["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:21:in `create'
+  [1m[36mMovie Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" WHERE LOWER("movies"."name") = LOWER(?) AND "movies"."id" != ? LIMIT ?[0m  [["name", "Return of the King"], ["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:21:in `create'
+No template found for CharactersController#create, rendering head :no_content
+Completed 204 No Content in 26ms (ActiveRecord: 1.7ms | Allocations: 13437)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:19:16 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1175)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.3ms | Allocations: 5173)
+
+
+Started GET "/characters/33" for ::1 at 2020-11-04 16:19:18 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 33]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1323)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.5ms | Allocations: 5965)
+
+
+Started GET "/characters/33/edit" for ::1 at 2020-11-04 16:19:20 -0500
+Processing by CharactersController#edit as HTML
+  Parameters: {"id"=>"33"}
+  Rendering characters/edit.html.erb within layouts/application
+  Rendered characters/edit.html.erb within layouts/application (Duration: 0.8ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4212)
+
+
+Started GET "/characters/33/edit" for ::1 at 2020-11-04 16:19:26 -0500
+Processing by CharactersController#edit as HTML
+  Parameters: {"id"=>"33"}
+  Rendering characters/edit.html.erb within layouts/application
+  Rendered characters/edit.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3987)
+
+
+Started GET "/characters/33" for ::1 at 2020-11-04 16:19:41 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 33]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1016)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.3ms | Allocations: 5540)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:19:48 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1149)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 5148)
+
+
+Started GET "/order/movies" for ::1 at 2020-11-04 16:19:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/order/movies"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/movies" for ::1 at 2020-11-04 16:20:03 -0500
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/movies/index.html.erb:2
+  Rendered movies/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 948)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 5468)
+
+
+Started GET "/movies/10" for ::1 at 2020-11-04 16:20:06 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/movies_controller.rb:7:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" INNER JOIN "movie_characters" ON "characters"."id" = "movie_characters"."character_id" WHERE "movie_characters"."movie_id" = ?[0m  [["movie_id", 10]]
+  ↳ app/views/movies/show.html.erb:5
+  Rendered movies/show.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2214)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 12.9ms | ActiveRecord: 0.7ms | Allocations: 6904)
+
+
+Started GET "/characters/28" for ::1 at 2020-11-04 16:20:09 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 28]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1093)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.5ms | Allocations: 5616)
+
+
+Started GET "/characters/28" for ::1 at 2020-11-04 16:22:14 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 28], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 28]]
+  ↳ app/views/characters/show.html.erb:6
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2102)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.4ms | Allocations: 7554)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:22:38 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 5466)
+
+
+Started GET "/characters/23" for ::1 at 2020-11-04 16:22:39 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 23], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1048)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.4ms | Allocations: 5571)
+
+
+Started GET "/characters/23" for ::1 at 2020-11-04 16:24:19 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 23], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.5ms | Allocations: 6766)
+
+
+Started GET "/characters/23" for ::1 at 2020-11-04 16:24:28 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 23], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.4ms | Allocations: 6759)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:25:10 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.2ms | Allocations: 6245)
+
+
+Started GET "/characters/25" for ::1 at 2020-11-04 16:25:12 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 25], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.4ms | Allocations: 5980)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:25:13 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1149)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.2ms | Allocations: 5139)
+
+
+Started GET "/characters/28" for ::1 at 2020-11-04 16:25:15 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 28], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 28]]
+  ↳ app/views/characters/show.html.erb:6
+  Rendered characters/show.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1867)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.8ms | Allocations: 6391)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:25:23 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1146)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 5133)
+
+
+Started GET "/characters/29" for ::1 at 2020-11-04 16:25:24 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 29], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 29]]
+  ↳ app/views/characters/show.html.erb:6
+  Rendered characters/show.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1828)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.6ms | Allocations: 6355)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:25:25 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1146)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.1ms | Allocations: 5140)
+
+
+Started GET "/characters/29" for ::1 at 2020-11-04 16:25:27 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 29], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 29]]
+  ↳ app/views/characters/show.html.erb:6
+  Rendered characters/show.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1829)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 1.3ms | Allocations: 6351)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:25:28 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1146)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.2ms | Allocations: 5140)
+
+
+Started GET "/characters/29" for ::1 at 2020-11-04 16:25:33 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 29], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 29]]
+  ↳ app/views/characters/show.html.erb:6
+  Rendered characters/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1828)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.5ms | Allocations: 6347)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:25:35 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1146)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 5141)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:35:35 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1164)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms | Allocations: 5160)
+
+
+Started GET "/movies" for ::1 at 2020-11-04 16:35:41 -0500
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/movies/index.html.erb:2
+  Rendered movies/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 963)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.2ms | Allocations: 5525)
+
+
+Started GET "/movies/7" for ::1 at 2020-11-04 16:35:44 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/movies_controller.rb:7:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" INNER JOIN "movie_characters" ON "characters"."id" = "movie_characters"."character_id" WHERE "movie_characters"."movie_id" = ?[0m  [["movie_id", 7]]
+  ↳ app/views/movies/show.html.erb:5
+  Rendered movies/show.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1462)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.5ms | Allocations: 6140)
+
+
+Started GET "/characters/32" for ::1 at 2020-11-04 16:35:47 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 32], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 32]]
+  ↳ app/views/characters/show.html.erb:6
+  Rendered characters/show.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1929)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.6ms | Allocations: 6471)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:35:49 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1149)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.3ms | Allocations: 5147)
+
+
+Started GET "/characters/33" for ::1 at 2020-11-04 16:35:52 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:12:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ? LIMIT ?[0m  [["character_id", 33], ["LIMIT", 1]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1047)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.5ms | Allocations: 5572)
+
+
+Started GET "/characters" for ::1 at 2020-11-04 16:35:54 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (0.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:3
+  Rendered characters/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1146)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 5141)
+
+
