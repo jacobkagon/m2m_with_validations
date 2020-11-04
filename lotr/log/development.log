@@ -3727,3 +3727,125 @@ Processing by CharactersController#show as HTML
 Completed 200 OK in 123ms (Views: 93.1ms | ActiveRecord: 1.7ms | Allocations: 1836837)
 
 
+Started GET "/characters/31" for ::1 at 2020-11-03 16:14:25 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/jacobkagon/Flatiron/code/m2m_with_validations/lotr/app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end
+app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end
+app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end
+Started GET "/characters" for ::1 at 2020-11-03 16:14:30 -0500
+Started GET "/characters/new" for ::1 at 2020-11-03 16:14:30 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/jacobkagon/Flatiron/code/m2m_with_validations/lotr/app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end
+app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end
+app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end
+  
+SyntaxError (/Users/jacobkagon/Flatiron/code/m2m_with_validations/lotr/app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end
+app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end
+app/controllers/characters_controller.rb:34: syntax error, unexpected end-of-input, expecting end
+Started GET "/characters/31" for ::1 at 2020-11-03 16:18:42 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mCharacter Load (7.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:7:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Load (1.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 31]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 163.8ms | Allocations: 2343724)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 410ms (Views: 243.2ms | ActiveRecord: 25.6ms | Allocations: 5674441)
+
+
+Started GET "/characters" for ::1 at 2020-11-03 16:18:49 -0500
+Processing by CharactersController#index as HTML
+  Rendering characters/index.html.erb within layouts/application
+  [1m[36mCharacter Load (1.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/views/characters/index.html.erb:2
+  Rendered characters/index.html.erb within layouts/application (Duration: 45.2ms | Allocations: 685155)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 131ms (Views: 112.1ms | ActiveRecord: 1.2ms | Allocations: 1872936)
+
+
+Started GET "/characters/31" for ::1 at 2020-11-03 16:18:51 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mCharacter Load (1.2ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:7:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Load (0.8ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 31]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 31.0ms | Allocations: 481127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 133ms (Views: 97.0ms | ActiveRecord: 2.0ms | Allocations: 1838779)
+
+
+Started GET "/characters/new" for ::1 at 2020-11-03 16:18:56 -0500
+Processing by CharactersController#new as HTML
+  Rendering characters/new.html.erb within layouts/application
+  [1m[36mMovie Load (1.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/characters/_form.html.erb:7
+  Rendered characters/_form.html.erb (Duration: 153.6ms | Allocations: 2178471)
+  Rendered characters/new.html.erb within layouts/application (Duration: 164.6ms | Allocations: 2286571)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 246ms (Views: 227.3ms | ActiveRecord: 1.2ms | Allocations: 3484112)
+
+
+Started POST "/characters" for ::1 at 2020-11-03 16:19:14 -0500
+Processing by CharactersController#create as HTML
+  Parameters: {"authenticity_token"=>"1swGdvwF51yf6Qbu3i137cwBYgQkafx53/pz7COxvmRLCEgBrG5HyiHEL5c8ygKKN7mequ5RmCrVbJKlBbDMAg==", "character"=>{"name"=>"Aragon", "location"=>"Middle Earth", "movie_ids"=>["", "7", "8", "9"]}, "commit"=>"Create Character"}
+  [1m[36mMovie Load (1.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" IN (?, ?, ?)[0m  [["id", 7], ["id", 8], ["id", 9]]
+  ↳ app/controllers/characters_controller.rb:15:in `create'
+  [1m[36mCharacter Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "characters" WHERE LOWER("characters"."name") = LOWER(?) LIMIT ?[0m  [["name", "Aragon"], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:16:in `create'
+  [1m[36mMovie Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" WHERE LOWER("movies"."name") = LOWER(?) AND "movies"."id" != ? LIMIT ?[0m  [["name", "Fellowship of the Ring"], ["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:16:in `create'
+  [1m[36mMovie Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" WHERE LOWER("movies"."name") = LOWER(?) AND "movies"."id" != ? LIMIT ?[0m  [["name", "The Two Towers"], ["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:16:in `create'
+  [1m[36mMovie Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" WHERE LOWER("movies"."name") = LOWER(?) AND "movies"."id" != ? LIMIT ?[0m  [["name", "Return of the King"], ["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:16:in `create'
+  [1m[36mCACHE Character Exists? (6.1ms)[0m  [1m[34mSELECT 1 AS one FROM "characters" WHERE LOWER("characters"."name") = LOWER(?) LIMIT ?[0m  [["name", "Aragon"], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+  [1m[36mCACHE Movie Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" WHERE LOWER("movies"."name") = LOWER(?) AND "movies"."id" != ? LIMIT ?[0m  [["name", "Fellowship of the Ring"], ["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+  [1m[36mCACHE Movie Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" WHERE LOWER("movies"."name") = LOWER(?) AND "movies"."id" != ? LIMIT ?[0m  [["name", "The Two Towers"], ["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+  [1m[36mCACHE Movie Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "movies" WHERE LOWER("movies"."name") = LOWER(?) AND "movies"."id" != ? LIMIT ?[0m  [["name", "Return of the King"], ["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+  [1m[36mCharacter Create (2.5ms)[0m  [1m[32mINSERT INTO "characters" ("name", "location", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Aragon"], ["location", "Middle Earth"], ["created_at", "2020-11-03 21:19:14.770518"], ["updated_at", "2020-11-03 21:19:14.770518"]]
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+  [1m[36mMovieCharacter Create (1.1ms)[0m  [1m[32mINSERT INTO "movie_characters" ("movie_id", "character_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["movie_id", 7], ["character_id", 32], ["created_at", "2020-11-03 21:19:14.824822"], ["updated_at", "2020-11-03 21:19:14.824822"]]
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+  [1m[36mMovieCharacter Create (1.2ms)[0m  [1m[32mINSERT INTO "movie_characters" ("movie_id", "character_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["movie_id", 8], ["character_id", 32], ["created_at", "2020-11-03 21:19:14.865327"], ["updated_at", "2020-11-03 21:19:14.865327"]]
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+  [1m[36mMovieCharacter Create (1.0ms)[0m  [1m[32mINSERT INTO "movie_characters" ("movie_id", "character_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["movie_id", 9], ["character_id", 32], ["created_at", "2020-11-03 21:19:14.900289"], ["updated_at", "2020-11-03 21:19:14.900289"]]
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/characters_controller.rb:17:in `create'
+Redirected to http://localhost:3000/characters/32
+Completed 302 Found in 646ms (ActiveRecord: 23.2ms | Allocations: 8994421)
+
+
+Started GET "/characters/32" for ::1 at 2020-11-03 16:19:15 -0500
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mCharacter Load (1.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/characters_controller.rb:7:in `show'
+  Rendering characters/show.html.erb within layouts/application
+  [1m[36mMovie Load (6.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "movie_characters" ON "movies"."id" = "movie_characters"."movie_id" WHERE "movie_characters"."character_id" = ?[0m  [["character_id", 32]]
+  ↳ app/views/characters/show.html.erb:4
+  Rendered characters/show.html.erb within layouts/application (Duration: 43.3ms | Allocations: 595030)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 147ms (Views: 109.9ms | ActiveRecord: 7.4ms | Allocations: 2013871)
+
+

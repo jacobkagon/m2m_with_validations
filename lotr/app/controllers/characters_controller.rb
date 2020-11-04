@@ -23,11 +23,11 @@ class CharactersController < ApplicationController
   def edit
   end
 
+
   private
 
   def character_params
-    params.require(:character).permit(:name, :location, :)
+    params.require(:character).permit(:name, :location, :movie_ids => [])
   end
-
 
 end
